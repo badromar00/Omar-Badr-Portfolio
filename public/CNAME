@@ -1,3 +1,4 @@
-omarbadr.me
+Type: CNAME Record
 Host: www
 Value: badromar00.github.io
+TTL: Automatic

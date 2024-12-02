@@ -6,7 +6,7 @@ export default function Profile() {
       <div className="relative">
         <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-blue-500/30">
           <img
-            src="/src/assets/profile_pic.jpg"
+            src="/assets/profile_pic.jpg"
             alt="Profile"
             className="w-full h-full object-cover"
           />

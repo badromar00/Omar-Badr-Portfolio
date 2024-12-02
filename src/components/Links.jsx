@@ -31,12 +31,12 @@ export default function Links() {
   ]
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-3">
       {links.map((link) => (
         <a
           key={link.title}
           href={link.url}
-          className="block p-6 bg-gray-800/50 rounded-lg hover:bg-gray-800/70 transition duration-200"
+          className="block p-4 hover:bg-gray-700/50 rounded-lg transition duration-200"
           target={link.title !== 'Email' ? '_blank' : undefined}
           rel={link.title !== 'Email' ? 'noopener noreferrer' : undefined}
         >

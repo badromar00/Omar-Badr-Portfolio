@@ -14,7 +14,7 @@ export default function Profile() {
       </div>
       <h1 className="text-4xl font-bold text-white mb-2">Omar Badr</h1>
       <p className="text-gray-300 mb-1">
-        Software Engineer
+        Backend Software Engineer
       </p>
       <p className="text-gray-300 mb-1">
         <FaLocationArrow className="inline-block" /> San Diego/Los Angeles, CA</p>

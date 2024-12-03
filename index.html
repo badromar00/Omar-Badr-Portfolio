@@ -8,6 +8,26 @@
     <script type="module" crossorigin src="/assets/index-XN0kGnbo.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BRUoWdVp.css">
   </head>
+  
+  <!-- Google tag (gtag.js) -->
+  <script>
+    (function() {
+      const tagId = import.meta.env.VITE_GOOGLE_TAG_ID;
+      if (!tagId) return;
+      const gtagScript = document.createElement('script');
+      gtagScript.async = true;
+      gtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${tagId}`;
+      document.head.appendChild(gtagScript);
+  
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', tagId);
+    })();
+  </script>
+  
   <body>
     <div id="root"></div>
   </body>

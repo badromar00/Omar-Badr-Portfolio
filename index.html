@@ -5,30 +5,17 @@
     <link rel="icon" type="image/x-icon" href="/OB-Favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Omar Badr</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ER58W2E93"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8ER58W2E93');
+    </script>
     <script type="module" crossorigin src="/assets/index-XN0kGnbo.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BRUoWdVp.css">
   </head>
-
-  <!-- Google tag (gtag.js) -->
-  <script>
-    (function() {
-      const tagId = import.meta.env.VITE_GOOGLE_TAG_ID;
-      if (!tagId) return;
-      const gtagScript = document.createElement('script');
-      gtagScript.async = true;
-      gtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${tagId}`;
-      document.head.appendChild(gtagScript);
-  
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', tagId);
-    })();
-  </script>
-  
   <body>
     <div id="root"></div>
   </body>

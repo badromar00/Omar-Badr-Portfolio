@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Omar Badr</title>
   </head>
+  
+  <!-- Google tag (gtag.js) -->
+  <script>
+    (function() {
+      const tagId = import.meta.env.VITE_GOOGLE_TAG_ID;
+      if (!tagId) return;
+      const gtagScript = document.createElement('script');
+      gtagScript.async = true;
+      gtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${tagId}`;
+      document.head.appendChild(gtagScript);
+  
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', tagId);
+    })();
+  </script>
+  
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

@@ -5,4 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/',
   publicDir: 'public',
+  define: {
+    'process.env': process.env
+  }
 })

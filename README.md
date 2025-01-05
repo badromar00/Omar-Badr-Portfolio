@@ -10,7 +10,6 @@ Visit the site at [omarbadr.me](https://omarbadr.me)
 - **React.js** - Frontend library for building user interfaces
 - **Vite** - Next-generation frontend build tool
 - **Tailwind CSS** - Utility-first CSS framework
-- **React Router** - Client-side routing
 - **React Icons** - Icon library for social links
 - **GitHub Pages** - Hosting platform
 

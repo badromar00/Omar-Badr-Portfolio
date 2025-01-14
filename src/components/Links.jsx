@@ -8,7 +8,7 @@ export default function Links() {
       title: 'Resume',
       description: 'View and download my resume.',
       icon: DocumentTextIcon,
-      url: '/assets/Omar_Badr_Software_Engineer_Resume.pdf',
+      url: '/assets/Badr-Omar-Software-Engineer-Resume.pdf',
       gradient: 'from-emerald-400 to-cyan-400',
     },
     {

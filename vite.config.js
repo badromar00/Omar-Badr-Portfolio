@@ -5,7 +5,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   return {
     plugins: [react()],
-    base: '/my-portfolio/',
+    base: '/',
     publicDir: 'public',
     define: {
       'process.env': env
